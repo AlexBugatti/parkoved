@@ -13,6 +13,13 @@ class QuestController: UIViewController {
 
     @IBOutlet weak var sceneView: ARSCNView!
     
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +27,8 @@ class QuestController: UIViewController {
         self.sceneView.showsStatistics = true
         
         let scene = SCNScene()
-        let olafScene = SCNScene.init(named: "cnek.obj")
+        let olafScene = SCNScene.init(named: "box2.dae")
+        
         
         
 //        let sceneViewTappedOn = gesture.view as! ARSCNView
@@ -31,14 +39,29 @@ class QuestController: UIViewController {
 //            return
 //        }
         
-        let position = SCNVector3(2,
-                                  3,
-                                  5)
+        let position = SCNVector3(1,
+                                  1,
+                                  1)
         
-        guard let olafNode = olafScene?.rootNode.childNode(withName: "Overhead_Softbox_2_Softbox_Texture", recursively: true) else {
+        guard let olafNode = olafScene?.rootNode.childNode(withName: "box", recursively: true) else {
             return
         }
         
+//        olafNode.scale = SCNVector3Make(0.5, 0.5, 0.5)
+//        let action = SCNAction.scale(by: sender.scale, duration: 1.0)
+//        node.runAction(action)
+        
+//         if let camera = sceneView.session.currentFrame?.camera {
+//          didInitializeScene = true
+//          var translation = matrix_identity_float4x4
+//          translation.columns.3.z = -1.0
+//          let transform = camera.transform * translation
+//          let position = SCNVector3(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
+////          sceneController.addSphere(position: position)
+//        }
+        
+//        let position = SCNVector3(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
+
         olafNode.position = position
         scene.rootNode.addChildNode(olafNode)
         sceneView.scene = scene
@@ -48,6 +71,7 @@ class QuestController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
         let configuration = ARWorldTrackingConfiguration()
         self.sceneView.session.run(configuration)
     }

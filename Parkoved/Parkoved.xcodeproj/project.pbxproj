@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA17460C251FC40F00C7E0D1 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17460A251FC40F00C7E0D1 /* ProfileController.swift */; };
+		FA17460D251FC40F00C7E0D1 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA17460B251FC40F00C7E0D1 /* ProfileController.xib */; };
+		FA174612251FCCD600C7E0D1 /* box_v4.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA174611251FCCD600C7E0D1 /* box_v4.dae */; };
 		FA63A508251EF88E00D11F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A507251EF88E00D11F35 /* AppDelegate.swift */; };
 		FA63A50C251EF88E00D11F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A50B251EF88E00D11F35 /* ViewController.swift */; };
 		FA63A50F251EF88E00D11F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA63A50D251EF88E00D11F35 /* Main.storyboard */; };
@@ -20,11 +23,22 @@
 		FA63A52D251F1D7000D11F35 /* ParkDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA63A52B251F1D7000D11F35 /* ParkDetailController.xib */; };
 		FA63A531251F378800D11F35 /* QuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A52F251F378800D11F35 /* QuestController.swift */; };
 		FA63A532251F378800D11F35 /* QuestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA63A530251F378800D11F35 /* QuestController.xib */; };
-		FA63A53B251F3C5300D11F35 /* OLAF.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA63A53A251F3C5300D11F35 /* OLAF.dae */; };
-		FA63A53F251F477300D11F35 /* cnek.obj in Resources */ = {isa = PBXBuildFile; fileRef = FA63A53E251F477200D11F35 /* cnek.obj */; };
+		FA8A4D6C251FD50E003ACABB /* box.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA8A4D6B251FD50E003ACABB /* box.dae */; };
+		FA8A4D6E251FD830003ACABB /* box2.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA8A4D6D251FD830003ACABB /* box2.dae */; };
+		FAB81987251F9940005B9E89 /* CityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB81985251F9940005B9E89 /* CityController.swift */; };
+		FAB81988251F9940005B9E89 /* CityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB81986251F9940005B9E89 /* CityController.xib */; };
+		FAB8198C251F9BB7005B9E89 /* CityEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8198A251F9BB7005B9E89 /* CityEventsCell.swift */; };
+		FAB8198D251F9BB7005B9E89 /* CityEventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB8198B251F9BB7005B9E89 /* CityEventsCell.xib */; };
+		FAB81991251FA13C005B9E89 /* ParkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8198F251FA13C005B9E89 /* ParkCell.swift */; };
+		FAB81992251FA13C005B9E89 /* ParkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB81990251FA13C005B9E89 /* ParkCell.xib */; };
+		FAB81996251FB07C005B9E89 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB81994251FB07C005B9E89 /* MapController.swift */; };
+		FAB81997251FB07C005B9E89 /* MapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB81995251FB07C005B9E89 /* MapController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA17460A251FC40F00C7E0D1 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		FA17460B251FC40F00C7E0D1 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		FA174611251FCCD600C7E0D1 /* box_v4.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = box_v4.dae; sourceTree = "<group>"; };
 		FA63A504251EF88E00D11F35 /* Parkoved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkoved.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA63A507251EF88E00D11F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA63A50B251EF88E00D11F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,8 +54,16 @@
 		FA63A52B251F1D7000D11F35 /* ParkDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkDetailController.xib; sourceTree = "<group>"; };
 		FA63A52F251F378800D11F35 /* QuestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestController.swift; sourceTree = "<group>"; };
 		FA63A530251F378800D11F35 /* QuestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestController.xib; sourceTree = "<group>"; };
-		FA63A53A251F3C5300D11F35 /* OLAF.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = OLAF.dae; sourceTree = "<group>"; };
-		FA63A53E251F477200D11F35 /* cnek.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cnek.obj; sourceTree = "<group>"; };
+		FA8A4D6B251FD50E003ACABB /* box.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = box.dae; sourceTree = "<group>"; };
+		FA8A4D6D251FD830003ACABB /* box2.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = box2.dae; sourceTree = "<group>"; };
+		FAB81985251F9940005B9E89 /* CityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityController.swift; sourceTree = "<group>"; };
+		FAB81986251F9940005B9E89 /* CityController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityController.xib; sourceTree = "<group>"; };
+		FAB8198A251F9BB7005B9E89 /* CityEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityEventsCell.swift; sourceTree = "<group>"; };
+		FAB8198B251F9BB7005B9E89 /* CityEventsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityEventsCell.xib; sourceTree = "<group>"; };
+		FAB8198F251FA13C005B9E89 /* ParkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCell.swift; sourceTree = "<group>"; };
+		FAB81990251FA13C005B9E89 /* ParkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkCell.xib; sourceTree = "<group>"; };
+		FAB81994251FB07C005B9E89 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		FAB81995251FB07C005B9E89 /* MapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA174609251FC3EC00C7E0D1 /* ProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				FA17460A251FC40F00C7E0D1 /* ProfileController.swift */,
+				FA17460B251FC40F00C7E0D1 /* ProfileController.xib */,
+			);
+			path = ProfileController;
+			sourceTree = "<group>";
+		};
 		FA63A4FB251EF88E00D11F35 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +147,9 @@
 		FA63A51E251F114C00D11F35 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA174609251FC3EC00C7E0D1 /* ProfileController */,
+				FAB81993251FB014005B9E89 /* MapController */,
+				FAB81980251F984F005B9E89 /* CityController */,
 				FA63A52E251F376200D11F35 /* QuestController */,
 				FA63A529251F1D2B00D11F35 /* ParkListController */,
 				FA63A528251F1D1600D11F35 /* ParkDetailController */,
@@ -160,10 +194,41 @@
 		FA63A533251F398100D11F35 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA63A53A251F3C5300D11F35 /* OLAF.dae */,
-				FA63A53E251F477200D11F35 /* cnek.obj */,
+				FA174611251FCCD600C7E0D1 /* box_v4.dae */,
+				FA8A4D6D251FD830003ACABB /* box2.dae */,
+				FA8A4D6B251FD50E003ACABB /* box.dae */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAB81980251F984F005B9E89 /* CityController */ = {
+			isa = PBXGroup;
+			children = (
+				FAB81989251F9B92005B9E89 /* cells */,
+				FAB81985251F9940005B9E89 /* CityController.swift */,
+				FAB81986251F9940005B9E89 /* CityController.xib */,
+			);
+			path = CityController;
+			sourceTree = "<group>";
+		};
+		FAB81989251F9B92005B9E89 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8198F251FA13C005B9E89 /* ParkCell.swift */,
+				FAB81990251FA13C005B9E89 /* ParkCell.xib */,
+				FAB8198A251F9BB7005B9E89 /* CityEventsCell.swift */,
+				FAB8198B251F9BB7005B9E89 /* CityEventsCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FAB81993251FB014005B9E89 /* MapController */ = {
+			isa = PBXGroup;
+			children = (
+				FAB81994251FB07C005B9E89 /* MapController.swift */,
+				FAB81995251FB07C005B9E89 /* MapController.xib */,
+			);
+			path = MapController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,12 +289,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB81997251FB07C005B9E89 /* MapController.xib in Resources */,
+				FA174612251FCCD600C7E0D1 /* box_v4.dae in Resources */,
+				FAB81992251FA13C005B9E89 /* ParkCell.xib in Resources */,
+				FAB81988251F9940005B9E89 /* CityController.xib in Resources */,
+				FA8A4D6C251FD50E003ACABB /* box.dae in Resources */,
+				FA8A4D6E251FD830003ACABB /* box2.dae in Resources */,
 				FA63A514251EF89400D11F35 /* LaunchScreen.storyboard in Resources */,
+				FA17460D251FC40F00C7E0D1 /* ProfileController.xib in Resources */,
 				FA63A527251F181900D11F35 /* ParkListController.xib in Resources */,
-				FA63A53F251F477300D11F35 /* cnek.obj in Resources */,
 				FA63A532251F378800D11F35 /* QuestController.xib in Resources */,
 				FA63A511251EF89400D11F35 /* Assets.xcassets in Resources */,
-				FA63A53B251F3C5300D11F35 /* OLAF.dae in Resources */,
+				FAB8198D251F9BB7005B9E89 /* CityEventsCell.xib in Resources */,
 				FA63A50F251EF88E00D11F35 /* Main.storyboard in Resources */,
 				FA63A52D251F1D7000D11F35 /* ParkDetailController.xib in Resources */,
 			);
@@ -245,10 +316,15 @@
 				FA63A52C251F1D7000D11F35 /* ParkDetailController.swift in Sources */,
 				FA63A50C251EF88E00D11F35 /* ViewController.swift in Sources */,
 				FA63A523251F121D00D11F35 /* Amusement.swift in Sources */,
+				FAB81996251FB07C005B9E89 /* MapController.swift in Sources */,
+				FAB8198C251F9BB7005B9E89 /* CityEventsCell.swift in Sources */,
 				FA63A521251F11AD00D11F35 /* Park.swift in Sources */,
+				FAB81987251F9940005B9E89 /* CityController.swift in Sources */,
 				FA63A508251EF88E00D11F35 /* AppDelegate.swift in Sources */,
+				FAB81991251FA13C005B9E89 /* ParkCell.swift in Sources */,
 				FA63A531251F378800D11F35 /* QuestController.swift in Sources */,
 				FA63A526251F181900D11F35 /* ParkListController.swift in Sources */,
+				FA17460C251FC40F00C7E0D1 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
