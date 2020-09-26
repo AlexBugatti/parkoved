@@ -12,6 +12,16 @@
 		FA63A50F251EF88E00D11F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA63A50D251EF88E00D11F35 /* Main.storyboard */; };
 		FA63A511251EF89400D11F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA63A510251EF89400D11F35 /* Assets.xcassets */; };
 		FA63A514251EF89400D11F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA63A512251EF89400D11F35 /* LaunchScreen.storyboard */; };
+		FA63A521251F11AD00D11F35 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A520251F11AD00D11F35 /* Park.swift */; };
+		FA63A523251F121D00D11F35 /* Amusement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A522251F121D00D11F35 /* Amusement.swift */; };
+		FA63A526251F181900D11F35 /* ParkListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A524251F181900D11F35 /* ParkListController.swift */; };
+		FA63A527251F181900D11F35 /* ParkListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA63A525251F181900D11F35 /* ParkListController.xib */; };
+		FA63A52C251F1D7000D11F35 /* ParkDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A52A251F1D7000D11F35 /* ParkDetailController.swift */; };
+		FA63A52D251F1D7000D11F35 /* ParkDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA63A52B251F1D7000D11F35 /* ParkDetailController.xib */; };
+		FA63A531251F378800D11F35 /* QuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63A52F251F378800D11F35 /* QuestController.swift */; };
+		FA63A532251F378800D11F35 /* QuestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA63A530251F378800D11F35 /* QuestController.xib */; };
+		FA63A53B251F3C5300D11F35 /* OLAF.dae in Resources */ = {isa = PBXBuildFile; fileRef = FA63A53A251F3C5300D11F35 /* OLAF.dae */; };
+		FA63A53F251F477300D11F35 /* cnek.obj in Resources */ = {isa = PBXBuildFile; fileRef = FA63A53E251F477200D11F35 /* cnek.obj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		FA63A510251EF89400D11F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA63A513251EF89400D11F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA63A515251EF89400D11F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA63A520251F11AD00D11F35 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		FA63A522251F121D00D11F35 /* Amusement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amusement.swift; sourceTree = "<group>"; };
+		FA63A524251F181900D11F35 /* ParkListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListController.swift; sourceTree = "<group>"; };
+		FA63A525251F181900D11F35 /* ParkListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkListController.xib; sourceTree = "<group>"; };
+		FA63A52A251F1D7000D11F35 /* ParkDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailController.swift; sourceTree = "<group>"; };
+		FA63A52B251F1D7000D11F35 /* ParkDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkDetailController.xib; sourceTree = "<group>"; };
+		FA63A52F251F378800D11F35 /* QuestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestController.swift; sourceTree = "<group>"; };
+		FA63A530251F378800D11F35 /* QuestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestController.xib; sourceTree = "<group>"; };
+		FA63A53A251F3C5300D11F35 /* OLAF.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = OLAF.dae; sourceTree = "<group>"; };
+		FA63A53E251F477200D11F35 /* cnek.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cnek.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,10 @@
 		FA63A506251EF88E00D11F35 /* Parkoved */ = {
 			isa = PBXGroup;
 			children = (
+				FA63A533251F398100D11F35 /* Resources */,
+				FA63A51D251F114600D11F35 /* API */,
+				FA63A51C251F113E00D11F35 /* Models */,
+				FA63A51B251F113100D11F35 /* Interface */,
 				FA63A507251EF88E00D11F35 /* AppDelegate.swift */,
 				FA63A50B251EF88E00D11F35 /* ViewController.swift */,
 				FA63A50D251EF88E00D11F35 /* Main.storyboard */,
@@ -62,6 +86,84 @@
 				FA63A515251EF89400D11F35 /* Info.plist */,
 			);
 			path = Parkoved;
+			sourceTree = "<group>";
+		};
+		FA63A51B251F113100D11F35 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A51F251F115500D11F35 /* Views */,
+				FA63A51E251F114C00D11F35 /* Controllers */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		FA63A51C251F113E00D11F35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A520251F11AD00D11F35 /* Park.swift */,
+				FA63A522251F121D00D11F35 /* Amusement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA63A51D251F114600D11F35 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FA63A51E251F114C00D11F35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A52E251F376200D11F35 /* QuestController */,
+				FA63A529251F1D2B00D11F35 /* ParkListController */,
+				FA63A528251F1D1600D11F35 /* ParkDetailController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA63A51F251F115500D11F35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA63A528251F1D1600D11F35 /* ParkDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A52A251F1D7000D11F35 /* ParkDetailController.swift */,
+				FA63A52B251F1D7000D11F35 /* ParkDetailController.xib */,
+			);
+			path = ParkDetailController;
+			sourceTree = "<group>";
+		};
+		FA63A529251F1D2B00D11F35 /* ParkListController */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A524251F181900D11F35 /* ParkListController.swift */,
+				FA63A525251F181900D11F35 /* ParkListController.xib */,
+			);
+			path = ParkListController;
+			sourceTree = "<group>";
+		};
+		FA63A52E251F376200D11F35 /* QuestController */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A52F251F378800D11F35 /* QuestController.swift */,
+				FA63A530251F378800D11F35 /* QuestController.xib */,
+			);
+			path = QuestController;
+			sourceTree = "<group>";
+		};
+		FA63A533251F398100D11F35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA63A53A251F3C5300D11F35 /* OLAF.dae */,
+				FA63A53E251F477200D11F35 /* cnek.obj */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA63A514251EF89400D11F35 /* LaunchScreen.storyboard in Resources */,
+				FA63A527251F181900D11F35 /* ParkListController.xib in Resources */,
+				FA63A53F251F477300D11F35 /* cnek.obj in Resources */,
+				FA63A532251F378800D11F35 /* QuestController.xib in Resources */,
 				FA63A511251EF89400D11F35 /* Assets.xcassets in Resources */,
+				FA63A53B251F3C5300D11F35 /* OLAF.dae in Resources */,
 				FA63A50F251EF88E00D11F35 /* Main.storyboard in Resources */,
+				FA63A52D251F1D7000D11F35 /* ParkDetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA63A52C251F1D7000D11F35 /* ParkDetailController.swift in Sources */,
 				FA63A50C251EF88E00D11F35 /* ViewController.swift in Sources */,
+				FA63A523251F121D00D11F35 /* Amusement.swift in Sources */,
+				FA63A521251F11AD00D11F35 /* Park.swift in Sources */,
 				FA63A508251EF88E00D11F35 /* AppDelegate.swift in Sources */,
+				FA63A531251F378800D11F35 /* QuestController.swift in Sources */,
+				FA63A526251F181900D11F35 /* ParkListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDC848MRAM;
 				INFOPLIST_FILE = Parkoved/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.Parkoved;
+				PRODUCT_BUNDLE_IDENTIFIER = app.majorauto.studio.staff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +412,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDC848MRAM;
 				INFOPLIST_FILE = Parkoved/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abugaev.Parkoved;
+				PRODUCT_BUNDLE_IDENTIFIER = app.majorauto.studio.staff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
