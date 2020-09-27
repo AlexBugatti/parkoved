@@ -39,11 +39,11 @@ class QuestController: UIViewController {
 //            return
 //        }
         
-        let position = SCNVector3(1,
-                                  1,
-                                  1)
+        let position = SCNVector3(-14,
+                                  57,
+                                  -9)
         
-        guard let olafNode = olafScene?.rootNode.childNode(withName: "box", recursively: true) else {
+        guard let olafNode = olafScene?.rootNode.childNode(withName: "kr", recursively: true) else {
             return
         }
         
@@ -74,7 +74,9 @@ class QuestController: UIViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         let configuration = ARWorldTrackingConfiguration()
         self.sceneView.session.run(configuration)
+        self.navigationItem.title = "Режим квеста"
     }
+    
 
     /*
     // MARK: - Navigation
